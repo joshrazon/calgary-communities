@@ -1,5 +1,10 @@
-
-
+import { Requirements } from "./Requirements";
+import Home from "./components/Home";
 export default function App() {
-  return (<h1>hi World</h1>)
+  return (
+    <>
+      <Requirements />
+      <Home />
+    </>
+  );
 }
