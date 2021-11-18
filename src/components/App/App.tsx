@@ -48,8 +48,6 @@ export default function App() {
 
   return (
     <div className="App">
-      <button onClick={() => console.log(homes)}>Log Sorted homes</button>
-      <button onClick={() => console.log(communities)}>Log Sorted comms</button>
       <CommunityList communities={communities} homes={homes} />
     </div>
   );
