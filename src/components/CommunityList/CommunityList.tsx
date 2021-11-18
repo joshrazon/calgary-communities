@@ -1,4 +1,4 @@
-import { Community, Home } from '../App/types';
+import { Community, Home } from '../../types';
 import './Community.css';
 import { getHomesPriceAverage } from './utils';
 

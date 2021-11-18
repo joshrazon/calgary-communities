@@ -1,4 +1,4 @@
-import { Community } from '../types';
+import { Community } from '../../../types';
 
 export const getCommunities = () => {
   return [

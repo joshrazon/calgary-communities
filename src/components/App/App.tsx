@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import CommunityList from '../CommunityList/CommunityList';
 import { getHomes, getHomesAsync, getCommunitiesAsync, getCommunities } from './data';
-import { Home, Community } from './types';
+import { Home, Community } from '../../types';
 import './App.css';
 
 export default function App() {

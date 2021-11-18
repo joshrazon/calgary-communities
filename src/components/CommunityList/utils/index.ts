@@ -1,4 +1,4 @@
-import { Home } from '../../App/types';
+import { Home } from '../../../types';
 
 export function filterHomes(homes: Home[], communityId: string) {
   let filteredHomes = [...homes].filter((home: Home) => home.communityId === communityId);
@@ -25,10 +25,8 @@ export function getHomesPriceAverage(homes: Home[], communityId: string) {
 
   if (prices.length !== 0) {
     let averageHomePrice = calculateAveragePrice(prices);
-    console.log('average price', averageHomePrice);
     return `Average home price: $${Math.round(averageHomePrice).toLocaleString('en-US')}`;
   } else {
-    console.log('No price found');
     return 'No prices found, please check again later.';
   }
 }

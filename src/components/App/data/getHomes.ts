@@ -1,4 +1,4 @@
-import { Home } from '../types';
+import { Home } from '../../../types';
 
 export const getHomes = () => {
   return [
