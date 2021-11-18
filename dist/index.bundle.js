@@ -64,7 +64,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container {\r\n  margin-top: 1em;\r\n  width: 65%;\r\n  max-height: 95vh;\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n  background-color: #f3f3f3;\r\n  border-radius: 15px;\r\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),\r\n    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),\r\n    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);\r\n}\r\n\r\n.container::-webkit-scrollbar-track {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  overflow-y: hidden;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  background: transparent;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb:window-inactive {\r\n  background: rgba(160, 160, 160, 0.753);\r\n}\r\n\r\n.container::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n.card {\r\n  box-sizing: border-box;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 20px;\r\n  width: 540px;\r\n}\r\n\r\n.cards-container {\r\n  padding-top: 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  border-bottom: 1px solid rgb(143, 143, 143);\r\n}\r\n\r\n.card-info {\r\n  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));\r\n}\r\n\r\n.card-image {\r\n  height: 300px;\r\n  border: 1px solid transparent;\r\n  border-radius: 10px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .card {\r\n    width: 100%;\r\n  }\r\n\r\n  .cards-container {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n  .card-image {\r\n    height: 100%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/components/CommunityList/Community.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,UAAU;EACV,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,yBAAyB;EACzB,mBAAmB;EACnB;;oEAEkE;AACpE;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,sCAAsC;AACxC;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,kCAAkC;EAClC,2CAA2C;AAC7C;;AAEA;EACE,oEAAoE;AACtE;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,mBAAmB;AACrB;;AAEA;EACE;IACE,WAAW;EACb;;EAEA;IACE,YAAY;IACZ,WAAW;EACb;;EAEA;IACE,YAAY;EACd;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');\r\n\r\n.container {\r\n  margin-top: 1em;\r\n  width: 65%;\r\n  max-height: 95vh;\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n  background-color: #f3f3f3;\r\n  border-radius: 15px;\r\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),\r\n    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),\r\n    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);\r\n}\r\n\r\n.container::-webkit-scrollbar-track {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  overflow-y: hidden;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  background: transparent;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb:window-inactive {\r\n  background: rgba(160, 160, 160, 0.753);\r\n}\r\n\r\n.container::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n.card {\r\n  box-sizing: border-box;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 20px;\r\n  width: 540px;\r\n}\r\n\r\n.cards-container {\r\n  padding-top: 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  border-bottom: 1px solid rgb(143, 143, 143);\r\n}\r\n\r\n.card-info {\r\n  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));\r\n}\r\n\r\n.card-image {\r\n  height: 300px;\r\n  border: 1px solid transparent;\r\n  border-radius: 10px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .card {\r\n    width: 100%;\r\n  }\r\n\r\n  .cards-container {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n  .card-image {\r\n    height: 100%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".container {\r\n  margin-top: 1em;\r\n  width: 65%;\r\n  max-height: 95vh;\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n  background-color: #f3f3f3;\r\n  border-radius: 15px;\r\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),\r\n    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),\r\n    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);\r\n}\r\n\r\n.card-container {\r\n  padding-top: 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  border-bottom: 1px solid rgb(143, 143, 143);\r\n}\r\n\r\n.card {\r\n  box-sizing: border-box;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 20px;\r\n  width: 540px;\r\n}\r\n\r\n.card-image {\r\n  height: 300px;\r\n  border: 1px solid transparent;\r\n  border-radius: 10px;\r\n}\r\n\r\n.card-info {\r\n  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));\r\n}\r\n\r\n.container::-webkit-scrollbar-track {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  overflow-y: hidden;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  background: transparent;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb:window-inactive {\r\n  background: rgba(160, 160, 160, 0.753);\r\n}\r\n\r\n.container::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .card {\r\n    width: 100%;\r\n  }\r\n\r\n  .cards-container {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n  .card-image {\r\n    height: 100%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/components/CommunityList/Community.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,UAAU;EACV,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,yBAAyB;EACzB,mBAAmB;EACnB;;oEAEkE;AACpE;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,kCAAkC;EAClC,2CAA2C;AAC7C;;AAEA;EACE,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,mBAAmB;AACrB;;AAEA;EACE,oEAAoE;AACtE;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,sCAAsC;AACxC;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE;IACE,WAAW;EACb;;EAEA;IACE,YAAY;IACZ,WAAW;EACb;;EAEA;IACE,YAAY;EACd;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');\r\n\r\n.container {\r\n  margin-top: 1em;\r\n  width: 65%;\r\n  max-height: 95vh;\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n  background-color: #f3f3f3;\r\n  border-radius: 15px;\r\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),\r\n    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),\r\n    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);\r\n}\r\n\r\n.card-container {\r\n  padding-top: 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  border-bottom: 1px solid rgb(143, 143, 143);\r\n}\r\n\r\n.card {\r\n  box-sizing: border-box;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 20px;\r\n  width: 540px;\r\n}\r\n\r\n.card-image {\r\n  height: 300px;\r\n  border: 1px solid transparent;\r\n  border-radius: 10px;\r\n}\r\n\r\n.card-info {\r\n  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));\r\n}\r\n\r\n.container::-webkit-scrollbar-track {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  overflow-y: hidden;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb {\r\n  -webkit-border-radius: 10px;\r\n  border-radius: 10px;\r\n  background: transparent;\r\n}\r\n\r\n.container::-webkit-scrollbar-thumb:window-inactive {\r\n  background: rgba(160, 160, 160, 0.753);\r\n}\r\n\r\n.container::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .card {\r\n    width: 100%;\r\n  }\r\n\r\n  .cards-container {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n  .card-image {\r\n    height: 100%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -31695,11 +31695,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ App)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var _CommunityList_CommunityList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../CommunityList/CommunityList */ "./src/components/CommunityList/CommunityList.tsx");
-/* harmony import */ var _data_getHomes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data/getHomes */ "./src/components/App/data/getHomes.ts");
-/* harmony import */ var _data_getCommunities__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data/getCommunities */ "./src/components/App/data/getCommunities.ts");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./App.css */ "./src/components/App/App.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _CommunityList_CommunityList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../CommunityList/CommunityList */ "./src/components/CommunityList/CommunityList.tsx");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data */ "./src/components/App/data/index.ts");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App.css */ "./src/components/App/App.css");
 var __assign = (undefined && undefined.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -31711,28 +31710,103 @@ var __assign = (undefined && undefined.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 
 
 
 
 
 function App() {
-    var _a = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)([]), communities = _a[0], setCommunities = _a[1];
-    var _b = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)([]), homes = _b[0], setHomes = _b[1];
-    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(function () {
+    var _a = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]), communities = _a[0], setCommunities = _a[1];
+    var _b = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]), homes = _b[0], setHomes = _b[1];
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
+        function fetchCommunities() {
+            return __awaiter(this, void 0, void 0, function () {
+                var result, data;
+                return __generator(this, function (_a) {
+                    switch (_a.label) {
+                        case 0: return [4 /*yield*/, (0,_data__WEBPACK_IMPORTED_MODULE_3__.getCommunitiesAsync)()];
+                        case 1:
+                            result = _a.sent();
+                            if (result.error) {
+                                console.error(result.error.message);
+                                data = (0,_data__WEBPACK_IMPORTED_MODULE_3__.getCommunities)();
+                                setCommunities(data);
+                            }
+                            else {
+                                setCommunities(result);
+                            }
+                            return [2 /*return*/];
+                    }
+                });
+            });
+        }
         if (communities.length === 0) {
-            var communitiesData = (0,_data_getCommunities__WEBPACK_IMPORTED_MODULE_3__.getCommunities)();
-            return setCommunities(communitiesData);
+            fetchCommunities();
         }
     }, [communities]);
-    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(function () {
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
+        function fetchHomes() {
+            return __awaiter(this, void 0, void 0, function () {
+                var result, data;
+                return __generator(this, function (_a) {
+                    switch (_a.label) {
+                        case 0: return [4 /*yield*/, (0,_data__WEBPACK_IMPORTED_MODULE_3__.getHomesAsync)()];
+                        case 1:
+                            result = _a.sent();
+                            if (result.error) {
+                                console.error(result.error.message);
+                                data = (0,_data__WEBPACK_IMPORTED_MODULE_3__.getHomes)();
+                                setHomes(data);
+                            }
+                            else {
+                                setHomes(result);
+                            }
+                            return [2 /*return*/];
+                    }
+                });
+            });
+        }
         if (homes.length === 0) {
-            var homesData = (0,_data_getHomes__WEBPACK_IMPORTED_MODULE_2__.getHomes)();
-            return setHomes(homesData);
+            fetchHomes();
         }
     }, [homes]);
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "App" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_CommunityList_CommunityList__WEBPACK_IMPORTED_MODULE_1__["default"], { communities: communities, homes: homes }, void 0) }), void 0));
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "App" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_CommunityList_CommunityList__WEBPACK_IMPORTED_MODULE_2__["default"], { communities: communities, homes: homes }, void 0) }), void 0));
 }
 
 
@@ -31939,6 +32013,50 @@ var getHomes = function () {
 
 /***/ }),
 
+/***/ "./src/components/App/data/httpRequests.ts":
+/*!*************************************************!*\
+  !*** ./src/components/App/data/httpRequests.ts ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getCommunitiesAsync": () => (/* binding */ getCommunitiesAsync),
+/* harmony export */   "getHomesAsync": () => (/* binding */ getHomesAsync)
+/* harmony export */ });
+function getCommunitiesAsync() {
+    return fetch('https://a18fda49-215e-47d1-9dc6-c6136a04a33a.mock.pstmn.io/communities').then(function (response) { return response.json(); });
+}
+function getHomesAsync() {
+    return fetch('https://a18fda49-215e-47d1-9dc6-c6136a04a33a.mock.pstmn.io/homes').then(function (response) { return response.json(); });
+}
+
+
+/***/ }),
+
+/***/ "./src/components/App/data/index.ts":
+/*!******************************************!*\
+  !*** ./src/components/App/data/index.ts ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getHomes": () => (/* reexport safe */ _getHomes__WEBPACK_IMPORTED_MODULE_0__.getHomes),
+/* harmony export */   "getCommunities": () => (/* reexport safe */ _getCommunities__WEBPACK_IMPORTED_MODULE_1__.getCommunities),
+/* harmony export */   "getCommunitiesAsync": () => (/* reexport safe */ _httpRequests__WEBPACK_IMPORTED_MODULE_2__.getCommunitiesAsync),
+/* harmony export */   "getHomesAsync": () => (/* reexport safe */ _httpRequests__WEBPACK_IMPORTED_MODULE_2__.getHomesAsync)
+/* harmony export */ });
+/* harmony import */ var _getHomes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getHomes */ "./src/components/App/data/getHomes.ts");
+/* harmony import */ var _getCommunities__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getCommunities */ "./src/components/App/data/getCommunities.ts");
+/* harmony import */ var _httpRequests__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./httpRequests */ "./src/components/App/data/httpRequests.ts");
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/components/CommunityList/CommunityList.tsx":
 /*!********************************************************!*\
   !*** ./src/components/CommunityList/CommunityList.tsx ***!
@@ -31968,10 +32086,11 @@ var __assign = (undefined && undefined.__assign) || function () {
 
 function CommunityList(_a) {
     var communities = _a.communities, homes = _a.homes;
+    // show placeholder image on error
     var imageOnErrorHandler = function (event) {
         event.currentTarget.src = 'https://via.placeholder.com/500x300';
     };
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "container" }, { children: communities.map(function (community) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "cards-container" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", __assign({ className: "card" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { onError: imageOnErrorHandler, src: community.imgUrl, alt: community.name, className: "card-image" }, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", __assign({ className: "card-info" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { children: community.name }, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { children: (0,_utils__WEBPACK_IMPORTED_MODULE_2__.getHomesPriceAverage)(homes, community.id) }, void 0)] }), void 0)] }), void 0) }), community.id)); }) }), void 0));
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "container" }, { children: communities.map(function (community) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", __assign({ className: "card-container" }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", __assign({ className: "card" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { onError: imageOnErrorHandler, src: community.imgUrl, alt: community.name, className: "card-image" }, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", __assign({ className: "card-info" }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { children: community.name }, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { children: (0,_utils__WEBPACK_IMPORTED_MODULE_2__.getHomesPriceAverage)(homes, community.id) }, void 0)] }), void 0)] }), void 0) }), community.id)); }) }), void 0));
 }
 
 
@@ -32021,11 +32140,9 @@ function getHomesPriceAverage(homes, communityId) {
     var prices = getPrices(filteredHomes);
     if (prices.length !== 0) {
         var averageHomePrice = calculateAveragePrice(prices);
-        console.log('average price', averageHomePrice);
         return "Average home price: $".concat(Math.round(averageHomePrice).toLocaleString('en-US'));
     }
     else {
-        console.log('No price found');
         return 'No prices found, please check again later.';
     }
 }
