@@ -1,6 +1,5 @@
 import CommunityList from '../CommunityList/CommunityList';
-import { getHomes } from './data/getHomes';
-import { getCommunities } from './data/getCommunities';
+import { getHomes, getHomesAsync, getCommunitiesAsync, getCommunities } from './data';
 import { useState, useEffect } from 'react';
 import { Home, Community } from './types';
 import './App.css';
@@ -10,16 +9,36 @@ export default function App() {
   const [homes, setHomes] = useState<Home[]>([]);
 
   useEffect(() => {
+    async function fetchCommunities() {
+      let result = await getCommunitiesAsync();
+      if (result.error) {
+        console.error(result.error.message);
+        let data = getCommunities();
+        setCommunities(data);
+      } else {
+        setCommunities(result);
+      }
+    }
+
     if (communities.length === 0) {
-      let communitiesData = getCommunities();
-      return setCommunities(communitiesData);
+      fetchCommunities();
     }
   }, [communities]);
 
   useEffect(() => {
+    async function fetchHomes() {
+      let result = await getHomesAsync();
+      if (result.error) {
+        console.error(result.error.message);
+        let data = getHomes();
+        setHomes(data);
+      } else {
+        setHomes(result);
+      }
+    }
+
     if (homes.length === 0) {
-      let homesData = getHomes();
-      return setHomes(homesData);
+      fetchHomes();
     }
   }, [homes]);
 
