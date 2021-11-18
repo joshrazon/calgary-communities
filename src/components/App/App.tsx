@@ -3,7 +3,7 @@ import { getHomes } from './data/getHomes';
 import { getCommunities } from './data/getCommunities';
 import { useState, useEffect } from 'react';
 import { Home, Community } from './types';
-import './index.css';
+import './App.css';
 
 export default function App() {
   const [communities, setCommunities] = useState<Community[]>([]);

@@ -26,7 +26,7 @@ export function getHomesPriceAverage(homes: Home[], communityId: string) {
   if (prices.length !== 0) {
     let averageHomePrice = calculateAveragePrice(prices);
     console.log('average price', averageHomePrice);
-    return `$${Math.round(averageHomePrice).toLocaleString('en-US')}`;
+    return `Average home price: $${Math.round(averageHomePrice).toLocaleString('en-US')}`;
   } else {
     console.log('No price found');
     return 'No prices found, please check again later.';

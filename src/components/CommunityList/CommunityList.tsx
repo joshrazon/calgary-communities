@@ -25,7 +25,7 @@ export default function CommunityList({ communities, homes }: Props) {
             />
             <div className="card-info">
               <p>{community.name}</p>
-              <p>Average home price: {getHomesPriceAverage(homes, community.id)}</p>
+              <p>{getHomesPriceAverage(homes, community.id)}</p>
             </div>
           </div>
         </div>
