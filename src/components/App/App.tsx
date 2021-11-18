@@ -15,8 +15,10 @@ export default function App() {
       if (result.error) {
         console.error(result.error.message);
         let data = getCommunities();
+        data.sort((a, b) => (a.name > b.name ? 1 : -1));
         setCommunities(data);
       } else {
+        result.sort((a: Community, b: Community) => (a.name > b.name ? 1 : -1));
         setCommunities(result);
       }
     }
@@ -46,6 +48,8 @@ export default function App() {
 
   return (
     <div className="App">
+      <button onClick={() => console.log(homes)}>Log Sorted homes</button>
+      <button onClick={() => console.log(communities)}>Log Sorted comms</button>
       <CommunityList communities={communities} homes={homes} />
     </div>
   );
