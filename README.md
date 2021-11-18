@@ -14,6 +14,12 @@ Present a collection of geographic communities in alphabetical order. Each geogr
 
     git clone https://github.com/joshrazon/calgary-communities.git
 
+    cd calgary-communities
+
+    npm install
+
+    npm run start
+
 ## Comments
 
 Here are some improvements I can add if given more time:
