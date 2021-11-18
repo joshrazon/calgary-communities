@@ -8,6 +8,7 @@ interface Props {
 }
 
 export default function CommunityList({ communities, homes }: Props) {
+  // show placeholder image on error
   const imageOnErrorHandler = (event: React.SyntheticEvent<HTMLImageElement, Event>) => {
     event.currentTarget.src = 'https://via.placeholder.com/500x300';
   };
@@ -15,7 +16,7 @@ export default function CommunityList({ communities, homes }: Props) {
   return (
     <div className="container">
       {communities.map((community) => (
-        <div key={community.id} className="cards-container">
+        <div key={community.id} className="card-container">
           <div className="card">
             <img
               onError={imageOnErrorHandler}

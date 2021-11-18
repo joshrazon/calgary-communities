@@ -11,6 +11,7 @@ export default function App() {
   useEffect(() => {
     async function fetchCommunities() {
       let result = await getCommunitiesAsync();
+
       if (result.error) {
         console.error(result.error.message);
         let data = getCommunities();
@@ -28,6 +29,7 @@ export default function App() {
   useEffect(() => {
     async function fetchHomes() {
       let result = await getHomesAsync();
+
       if (result.error) {
         console.error(result.error.message);
         let data = getHomes();
